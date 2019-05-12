@@ -1,0 +1,28 @@
+{
+  "name": "poc-cluster-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js",
+    "start:debug": "NODE_DEBUG=performance npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivienAdnot/poc-cluster-module.git"
+  },
+  "author": "Vivien Adnot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivienAdnot/poc-cluster-module/issues"
+  },
+  "homepage": "https://github.com/VivienAdnot/poc-cluster-module#readme",
+  "dependencies": {
+    "elo-rating": "^1.0.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
